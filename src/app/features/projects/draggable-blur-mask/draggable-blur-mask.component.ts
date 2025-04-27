@@ -19,6 +19,7 @@ import { CanvasService } from './services/canvas.service';
 import { BlurMaskSettings } from './models/blur-mask-settings';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { TranslateModule } from '@ngx-translate/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-draggable-blur-mask',
@@ -53,7 +54,9 @@ export class DraggableBlurMaskComponent {
   constructor(
     public screen: ScreenService,
     private canvasService: CanvasService,
-    private dialog: MatDialog
+    private dialog: MatDialog,
+    private titleService: Title, 
+    private metaService: Meta
   ) {
     this.data = {
       blur: 0,
@@ -65,6 +68,28 @@ export class DraggableBlurMaskComponent {
     };
     this.preview = '/shiba.jpg';
   }
+
+  ngOnInit() {
+    this.titleService.setTitle('Carlos Henrique Reis - Draggable blur mask over image');
+    this.metaService.updateTag({ name: 'description', content: 'Draggable blur mask over image (use canvas/angular)' });
+    this.metaService.updateTag({ name: 'keywords', content: 'Draggable Blur Mask, Blur mask, Angular blur' });
+
+    this.metaService.updateTag({
+      property: 'og:title',
+      content: 'Carlos Henrique Reis - Draggable blur mask over image'
+    });
+
+    this.metaService.updateTag({
+      property: 'og:description',
+      content: 'Draggable blur mask over image (use canvas/angular)'
+    });
+
+    this.metaService.updateTag({
+      property: 'og:image',
+      content: 'https://cahenre.com.br/projects/blur.png'
+    });
+  }
+
 
 
   onImageLoad() {

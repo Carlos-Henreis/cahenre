@@ -1,6 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
-import { BreakpointObserver } from '@angular/cdk/layout';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
@@ -16,6 +15,7 @@ import { registerLocaleData } from '@angular/common';
 import localePT from '@angular/common/locales/pt';
 import localeEN from '@angular/common/locales/en';
 import { ScreenService } from './services/screen.service';
+import { Meta, Title } from '@angular/platform-browser';
 registerLocaleData(localePT);
 registerLocaleData(localeEN);
 
@@ -46,15 +46,42 @@ export class AppComponent {
   title = 'cahenre-portifolio';
 
   constructor(
-    private breakpointObserver: BreakpointObserver,
     private translate: TranslateService,
-    public screen: ScreenService
+    public screen: ScreenService,
+    private titleService: Title, 
+    private metaService: Meta
   ) {
     this.translate.setDefaultLang('pt');
     this.translate.use('pt');
   }
 
-  ngOnInit(): void {;
+  ngOnInit(): void {
+    this.titleService.setTitle('Personal Portfolio - Carlos Henrique Reis');
+
+    this.metaService.updateTag({
+      name: 'description',
+      content: "Hello, my name is Carlos Henrique Reis and I am a software developer passionate about technology and innovation. I have experience in software development, cloud solutions architecture, and technical leadership."
+    });
+
+    this.metaService.updateTag({
+      name: 'keywords',
+      content: 'Backend Developer, Personal Portfolio, Carlos Henrique Reis, Software Engineer, Web Developer, Cloud Solutions Architect'
+    });
+
+    this.metaService.updateTag({
+      property: 'og:title',
+      content: 'Personal Portfolio - Carlos Henrique Reis'
+    });
+
+    this.metaService.updateTag({
+      property: 'og:description',
+      content: 'Hello, my name is Carlos Henrique Reis and I am a software developer passionate about technology and innovation. I have experience in software development, cloud solutions architecture, and technical leadership.'
+    });
+
+    this.metaService.updateTag({
+      property: 'og:image',
+      content: 'https://cahenre.com.br/profile-1.jpg'
+    });
   }
 
   toggleSidenav(): void {
