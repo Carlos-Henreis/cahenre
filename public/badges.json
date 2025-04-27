@@ -1,0 +1,1495 @@
+{
+    "data": [
+        {
+            "id": "0ff88626-46d7-4f67-a666-88723a021d5a",
+            "expires_at_date": "2024-12-23",
+            "issued_at_date": "2021-12-23",
+            "issued_to": "Carlos Henrique Reis",
+            "locale": "en",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": false,
+            "accepted_at": "2021-12-24T08:34:32.413-03:00",
+            "expires_at": "2024-12-22T21:00:00.000-03:00",
+            "issued_at": "2021-12-22T21:00:00.000-03:00",
+            "last_updated_at": "2021-12-24T08:34:32.413-03:00",
+            "updated_at": "2021-12-24T08:34:32.415-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": false,
+            "issuer": {
+                "summary": "issued by Amazon Web Services Training and Certification",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "7b741b5c-231d-4925-8041-c64b6846f1c8",
+                            "name": "Amazon Web Services Training and Certification",
+                            "url": "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8",
+                            "vanity_url": "https://www.credly.com/org/amazon-web-services",
+                            "internationalize_badge_templates": false,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": "https://twitter.com/awscloud",
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "6069fb52-0c27-42d7-852b-6aa86ea45e81",
+                "description": "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.",
+                "global_activity_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+                "earn_this_badge_url": null,
+                "enable_earn_this_badge": false,
+                "enable_detail_attribute_visibility": true,
+                "job_board_url": null,
+                "name": "AWS Certified Cloud Practitioner",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "aws-certified-cloud-practitioner",
+                "show_badge_lmi": true,
+                "show_skill_tag_links": true,
+                "settings_enable_related_badges": true,
+                "translatable": false,
+                "level": "Foundational",
+                "time_to_earn": null,
+                "cost": null,
+                "type_category": "Certification",
+                "image": {
+                    "id": "00634f82-b07f-4bbd-a6bb-53de397fc3a6",
+                    "url": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+                },
+                "image_url": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+                "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-cloud-practitioner",
+                "owner_vanity_slug": "amazon-web-services",
+                "badge_template_earnable": false,
+                "recommendable": true,
+                "issuer": {
+                    "summary": "issued by Amazon Web Services Training and Certification",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "7b741b5c-231d-4925-8041-c64b6846f1c8",
+                                "name": "Amazon Web Services Training and Certification",
+                                "url": "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8",
+                                "vanity_url": "https://www.credly.com/org/amazon-web-services",
+                                "internationalize_badge_templates": false,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": "https://twitter.com/awscloud",
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [
+                    {
+                        "id": "54225396-3c1a-44b6-ba14-9fe2f812842b",
+                        "name": "AWS Certified Solutions Architect – Associate",
+                        "image": {
+                            "id": "0e284c3f-5164-4b21-8660-0d84737941bc",
+                            "url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+                        },
+                        "image_url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+                        "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-associate"
+                    },
+                    {
+                        "id": "6b1c7b5a-d668-48a5-9dfd-e5de1c432c31",
+                        "name": "AWS Certified Solutions Architect – Professional",
+                        "image": {
+                            "id": "2d84e428-9078-49b6-a804-13c15383d0de",
+                            "url": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png"
+                        },
+                        "image_url": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png",
+                        "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-professional"
+                    },
+                    {
+                        "id": "20f61a9f-06ff-43ad-ada3-b553e0189295",
+                        "name": "AWS Certified Data Engineer – Associate",
+                        "image": {
+                            "id": "e5c85d7f-4e50-431e-b5af-fa9d9b0596e7",
+                            "url": "https://images.credly.com/images/e5c85d7f-4e50-431e-b5af-fa9d9b0596e7/image.png"
+                        },
+                        "image_url": "https://images.credly.com/images/e5c85d7f-4e50-431e-b5af-fa9d9b0596e7/image.png",
+                        "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-data-engineer-associate"
+                    }
+                ],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "0120445d-cc83-4cbd-8e43-19fc7d025d35",
+                        "activity_type": "Assessment",
+                        "required_badge_template_id": null,
+                        "title": "Successfully passed the AWS Certified Cloud Practitioner exam.",
+                        "url": null
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "87f75c05-6cff-4044-b641-f871a1ea345a",
+                        "name": "Amazon Web Services",
+                        "vanity_slug": "amazon-web-services"
+                    },
+                    {
+                        "id": "682d4927-14e7-490c-96d3-c8f3ef0995de",
+                        "name": "AWS",
+                        "vanity_slug": "aws"
+                    },
+                    {
+                        "id": "d914920b-ba3e-4220-9b51-957642f3104a",
+                        "name": "AWS Certification",
+                        "vanity_slug": "aws-certification"
+                    },
+                    {
+                        "id": "918edc32-0894-4957-a91f-d96300b8b8d3",
+                        "name": "AWS Cloud",
+                        "vanity_slug": "aws-cloud"
+                    },
+                    {
+                        "id": "c42a5758-3258-4516-9188-5b019ddd1241",
+                        "name": "Cloud Certification",
+                        "vanity_slug": "cloud-certification"
+                    },
+                    {
+                        "id": "f8e4fd7f-3cf6-40bd-95a0-b832e21c2f8f",
+                        "name": "Cloud Computing",
+                        "vanity_slug": "cloud-computing"
+                    },
+                    {
+                        "id": "f468a452-e13e-4ca4-ae58-f4131989f1fe",
+                        "name": "Cloud Platform",
+                        "vanity_slug": "cloud-platform"
+                    },
+                    {
+                        "id": "f056df54-cafe-4713-bdc5-d4ac6734d76c",
+                        "name": "Cloud Services",
+                        "vanity_slug": "cloud-services"
+                    }
+                ]
+            },
+            "image": {
+                "id": "00634f82-b07f-4bbd-a6bb-53de397fc3a6",
+                "url": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+            },
+            "image_url": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+            "evidence": [],
+            "recommendations": []
+        },
+        {
+            "id": "d8c5225b-c1ed-4e5b-aefd-7721516cf6b5",
+            "expires_at_date": "2027-11-18",
+            "issued_at_date": "2024-11-18",
+            "issued_to": "Carlos Henrique Reis",
+            "locale": "en",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": false,
+            "accepted_at": "2024-11-20T08:52:09.591-03:00",
+            "expires_at": "2027-11-17T21:00:00.000-03:00",
+            "issued_at": "2024-11-17T21:00:00.000-03:00",
+            "last_updated_at": "2024-11-20T08:52:09.592-03:00",
+            "updated_at": "2024-11-20T08:52:09.592-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": false,
+            "issuer": {
+                "summary": "issued by Amazon Web Services Training and Certification",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "7b741b5c-231d-4925-8041-c64b6846f1c8",
+                            "name": "Amazon Web Services Training and Certification",
+                            "url": "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8",
+                            "vanity_url": "https://www.credly.com/org/amazon-web-services",
+                            "internationalize_badge_templates": false,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": "https://twitter.com/awscloud",
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "54225396-3c1a-44b6-ba14-9fe2f812842b",
+                "description": "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.",
+                "global_activity_url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+                "earn_this_badge_url": null,
+                "enable_earn_this_badge": false,
+                "enable_detail_attribute_visibility": true,
+                "job_board_url": null,
+                "name": "AWS Certified Solutions Architect – Associate",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "aws-certified-solutions-architect-associate",
+                "show_badge_lmi": true,
+                "show_skill_tag_links": true,
+                "settings_enable_related_badges": true,
+                "translatable": false,
+                "level": "Intermediate",
+                "time_to_earn": null,
+                "cost": null,
+                "type_category": "Certification",
+                "image": {
+                    "id": "0e284c3f-5164-4b21-8660-0d84737941bc",
+                    "url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+                },
+                "image_url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+                "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-associate",
+                "owner_vanity_slug": "amazon-web-services",
+                "badge_template_earnable": false,
+                "recommendable": true,
+                "issuer": {
+                    "summary": "issued by Amazon Web Services Training and Certification",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "7b741b5c-231d-4925-8041-c64b6846f1c8",
+                                "name": "Amazon Web Services Training and Certification",
+                                "url": "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8",
+                                "vanity_url": "https://www.credly.com/org/amazon-web-services",
+                                "internationalize_badge_templates": false,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": "https://twitter.com/awscloud",
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [
+                    {
+                        "id": "6b1c7b5a-d668-48a5-9dfd-e5de1c432c31",
+                        "name": "AWS Certified Solutions Architect – Professional",
+                        "image": {
+                            "id": "2d84e428-9078-49b6-a804-13c15383d0de",
+                            "url": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png"
+                        },
+                        "image_url": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png",
+                        "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-professional"
+                    },
+                    {
+                        "id": "6069fb52-0c27-42d7-852b-6aa86ea45e81",
+                        "name": "AWS Certified Cloud Practitioner",
+                        "image": {
+                            "id": "00634f82-b07f-4bbd-a6bb-53de397fc3a6",
+                            "url": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+                        },
+                        "image_url": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+                        "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-cloud-practitioner"
+                    },
+                    {
+                        "id": "814f73aa-6ad7-4dea-8895-121134113997",
+                        "name": "AWS Certified SysOps Administrator – Associate",
+                        "image": {
+                            "id": "f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1",
+                            "url": "https://images.credly.com/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png"
+                        },
+                        "image_url": "https://images.credly.com/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png",
+                        "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-sysops-administrator-associate"
+                    }
+                ],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "e1d83b85-adce-4c50-acc6-13701b0fc0df",
+                        "activity_type": "Assessment",
+                        "required_badge_template_id": null,
+                        "title": "Successfully passed the AWS Certified Solutions Architect – Associate exam.",
+                        "url": null
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "87f75c05-6cff-4044-b641-f871a1ea345a",
+                        "name": "Amazon Web Services",
+                        "vanity_slug": "amazon-web-services"
+                    },
+                    {
+                        "id": "682d4927-14e7-490c-96d3-c8f3ef0995de",
+                        "name": "AWS",
+                        "vanity_slug": "aws"
+                    },
+                    {
+                        "id": "d914920b-ba3e-4220-9b51-957642f3104a",
+                        "name": "AWS Certification",
+                        "vanity_slug": "aws-certification"
+                    },
+                    {
+                        "id": "918edc32-0894-4957-a91f-d96300b8b8d3",
+                        "name": "AWS Cloud",
+                        "vanity_slug": "aws-cloud"
+                    },
+                    {
+                        "id": "abfd0cf0-7586-4cb8-9f23-0398da99a4cb",
+                        "name": "Cloud Architecture",
+                        "vanity_slug": "cloud-architecture"
+                    },
+                    {
+                        "id": "c42a5758-3258-4516-9188-5b019ddd1241",
+                        "name": "Cloud Certification",
+                        "vanity_slug": "cloud-certification"
+                    },
+                    {
+                        "id": "37229bc7-1a4e-478d-b834-17402ba02862",
+                        "name": "Cloud Data",
+                        "vanity_slug": "cloud-data"
+                    },
+                    {
+                        "id": "d787423d-a2c2-4515-953d-52a42e946fd9",
+                        "name": "Cloud Infrastructure",
+                        "vanity_slug": "cloud-infrastructure"
+                    },
+                    {
+                        "id": "f056df54-cafe-4713-bdc5-d4ac6734d76c",
+                        "name": "Cloud Services",
+                        "vanity_slug": "cloud-services"
+                    }
+                ]
+            },
+            "image": {
+                "id": "0e284c3f-5164-4b21-8660-0d84737941bc",
+                "url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+            },
+            "image_url": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+            "evidence": [],
+            "recommendations": []
+        },
+        {
+            "id": "d12d4d5f-beb5-4ba0-a44c-ac3d97ba0aa1",
+            "expires_at_date": null,
+            "issued_at_date": "2024-05-27",
+            "issued_to": "CARLOS HENRIQUE REIS",
+            "locale": "pt-BR",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": true,
+            "accepted_at": "2024-05-29T17:08:57.857-03:00",
+            "expires_at": null,
+            "issued_at": "2024-05-26T21:00:00.000-03:00",
+            "last_updated_at": "2024-05-29T17:08:57.857-03:00",
+            "updated_at": "2024-05-29T17:08:57.863-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": true,
+            "language": "pt-BR",
+            "issuer": {
+                "summary": "issued by Itaú Unibanco",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "name": "Itaú Unibanco",
+                            "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "vanity_url": "https://www.credly.com/org/itau",
+                            "internationalize_badge_templates": true,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": null,
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "bf42380a-5fdc-4dcd-b023-12ccb70a719c",
+                "description": "A pessoa que detém esta Badge possui conhecimentos básicos sobre disciplinas relacionadas a dados, tendo sido introduzida aos conceitos e termos correntes em áreas como: Modelagem de Dados, Engenharia de Dados e Analytics, Ciência de Dados, Engenharia de Machine Learning e Governança de Dados. Sendo, portanto, letrada em dados, tendo intuição sobre o ciclo do dado, desde sua aquisição e tratamento até análises avançadas, entrega contínua e geração de valor.",
+                "global_activity_url": null,
+                "earn_this_badge_url": null,
+                "enable_earn_this_badge": false,
+                "enable_detail_attribute_visibility": true,
+                "job_board_url": null,
+                "name": "Practitioner - D\u0026A Foundation",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "practitioner-d-a-foundation.1",
+                "show_badge_lmi": false,
+                "show_skill_tag_links": false,
+                "settings_enable_related_badges": true,
+                "translatable": true,
+                "level": "Foundational",
+                "time_to_earn": null,
+                "cost": null,
+                "type_category": "Learning",
+                "language": "pt-BR",
+                "image": {
+                    "id": "3151b077-3f06-49e8-b319-e4ef69bb19ec",
+                    "url": "https://images.credly.com/images/3151b077-3f06-49e8-b319-e4ef69bb19ec/image.png"
+                },
+                "image_url": "https://images.credly.com/images/3151b077-3f06-49e8-b319-e4ef69bb19ec/image.png",
+                "url": "https://www.credly.com/org/itau/badge/practitioner-d-a-foundation.1",
+                "owner_vanity_slug": "itau",
+                "badge_template_earnable": false,
+                "recommendable": false,
+                "issuer": {
+                    "summary": "issued by Itaú Unibanco",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "name": "Itaú Unibanco",
+                                "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "vanity_url": "https://www.credly.com/org/itau",
+                                "internationalize_badge_templates": true,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": null,
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "67915a39-1e6c-40c6-a459-04bb265edc0e",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "Acesse todas as trilhas do plano Practitioner - Fundação de Dados, veja os conteúdos e marque-os como concluído, não esqueça de seguir o plano.",
+                        "url": null
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "df73eb0e-b0bc-4732-a455-609069af1c68",
+                        "name": "Analise Exploratória de Dados",
+                        "vanity_slug": "analise-exploratoria-de-dados"
+                    },
+                    {
+                        "id": "490721b2-5c4e-4ade-9e9a-9ce53251af64",
+                        "name": "Analytical Skills",
+                        "vanity_slug": "analytical-skills"
+                    },
+                    {
+                        "id": "dd94ad72-5bc4-4df2-8561-c3396ce67358",
+                        "name": "Data Driven Instruction",
+                        "vanity_slug": "data-driven-instruction"
+                    }
+                ]
+            },
+            "image": {
+                "id": "3151b077-3f06-49e8-b319-e4ef69bb19ec",
+                "url": "https://images.credly.com/images/3151b077-3f06-49e8-b319-e4ef69bb19ec/image.png"
+            },
+            "image_url": "https://images.credly.com/images/3151b077-3f06-49e8-b319-e4ef69bb19ec/image.png",
+            "evidence": [],
+            "recommendations": []
+        },
+        {
+            "id": "b377a160-9adf-4060-aade-3b8066481e8d",
+            "expires_at_date": null,
+            "issued_at_date": "2024-05-29",
+            "issued_to": "CARLOS HENRIQUE REIS",
+            "locale": "pt-BR",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": true,
+            "accepted_at": "2024-05-29T17:08:58.108-03:00",
+            "expires_at": null,
+            "issued_at": "2024-05-28T21:00:00.000-03:00",
+            "last_updated_at": "2024-05-29T17:08:58.108-03:00",
+            "updated_at": "2024-05-29T17:08:58.115-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": true,
+            "language": "pt-BR",
+            "issuer": {
+                "summary": "issued by Itaú Unibanco",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "name": "Itaú Unibanco",
+                            "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "vanity_url": "https://www.credly.com/org/itau",
+                            "internationalize_badge_templates": true,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": null,
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "76e448e7-d839-4e2c-be69-b44ba2b2758b",
+                "description": "A pessoa que detém este Badge adquiriu os conceitos fundamentais sobre Inteligência Artificial Generativa, tanto no aspecto teórico quanto no prático. É capaz de entender os alicerces básicos da mecânica que sustenta as principais ferramentas de Inteligência Artificial Generativa, bem como compreender os seus potenciais casos de uso no âmbito social.",
+                "global_activity_url": null,
+                "earn_this_badge_url": null,
+                "enable_earn_this_badge": false,
+                "enable_detail_attribute_visibility": true,
+                "job_board_url": null,
+                "name": "Practitioner - Generative AI",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "practitioner-generative-ai.1",
+                "show_badge_lmi": false,
+                "show_skill_tag_links": false,
+                "settings_enable_related_badges": true,
+                "translatable": true,
+                "level": "Foundational",
+                "time_to_earn": null,
+                "cost": null,
+                "type_category": "Learning",
+                "language": "pt-BR",
+                "image": {
+                    "id": "3bb81f31-b826-4462-8758-d25d2d43083c",
+                    "url": "https://images.credly.com/images/3bb81f31-b826-4462-8758-d25d2d43083c/image.png"
+                },
+                "image_url": "https://images.credly.com/images/3bb81f31-b826-4462-8758-d25d2d43083c/image.png",
+                "url": "https://www.credly.com/org/itau/badge/practitioner-generative-ai.1",
+                "owner_vanity_slug": "itau",
+                "badge_template_earnable": false,
+                "recommendable": false,
+                "issuer": {
+                    "summary": "issued by Itaú Unibanco",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "name": "Itaú Unibanco",
+                                "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "vanity_url": "https://www.credly.com/org/itau",
+                                "internationalize_badge_templates": true,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": null,
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "aa080989-49a5-4b2b-8266-8be79ca5fdbb",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "Acesse todas as trilhas Practitioner - IA Generativa, veja os conteúdos e marque-os como concluído, não esqueça de seguir o plano.",
+                        "url": null
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "3548013a-e914-4b23-b4fc-3fd5a416fa30",
+                        "name": "Artificial Intelligence (AI)",
+                        "vanity_slug": "artificial-intelligence-ai"
+                    },
+                    {
+                        "id": "e29072bb-81be-47d4-a52f-5ebbb579bc28",
+                        "name": "Machine Learning Algorithms",
+                        "vanity_slug": "machine-learning-algorithms"
+                    },
+                    {
+                        "id": "b7c64ba4-9f39-411a-a4ef-eae166561d8b",
+                        "name": "Machine Learning (ML)",
+                        "vanity_slug": "machine-learning-ml"
+                    }
+                ]
+            },
+            "image": {
+                "id": "3bb81f31-b826-4462-8758-d25d2d43083c",
+                "url": "https://images.credly.com/images/3bb81f31-b826-4462-8758-d25d2d43083c/image.png"
+            },
+            "image_url": "https://images.credly.com/images/3bb81f31-b826-4462-8758-d25d2d43083c/image.png",
+            "evidence": [],
+            "recommendations": []
+        },
+        {
+            "id": "b6fbceae-47d1-499a-b796-692c031897ab",
+            "expires_at_date": null,
+            "issued_at_date": "2024-05-29",
+            "issued_to": "CARLOS HENRIQUE REIS",
+            "locale": "pt-BR",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": true,
+            "accepted_at": "2024-05-29T17:08:57.990-03:00",
+            "expires_at": null,
+            "issued_at": "2024-05-28T21:00:00.000-03:00",
+            "last_updated_at": "2024-05-29T17:08:57.990-03:00",
+            "updated_at": "2024-05-29T17:08:57.996-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": true,
+            "language": "pt-BR",
+            "issuer": {
+                "summary": "issued by Itaú Unibanco",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "name": "Itaú Unibanco",
+                            "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "vanity_url": "https://www.credly.com/org/itau",
+                            "internationalize_badge_templates": true,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": null,
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "1540aa8d-ef86-4cc9-b6df-6900005089e8",
+                "description": "A pessoa que detém esta Badge foi iniciada na estratégia de dados do Itaú. Sendo capaz de entender como dados podem e devem ser utilizados para direcionar e gerar valor para todo o negócio, bem como sobre como liderar times para garantir uma cultura data-driven e data-centric.",
+                "global_activity_url": null,
+                "earn_this_badge_url": null,
+                "enable_earn_this_badge": false,
+                "enable_detail_attribute_visibility": true,
+                "job_board_url": null,
+                "name": "Practitioner - Leadership D\u0026A",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "practitioner-leadership-d-a.1",
+                "show_badge_lmi": false,
+                "show_skill_tag_links": false,
+                "settings_enable_related_badges": true,
+                "translatable": true,
+                "level": "Foundational",
+                "time_to_earn": null,
+                "cost": null,
+                "type_category": "Learning",
+                "language": "pt-BR",
+                "image": {
+                    "id": "eec6f18d-b9f4-4d72-b55d-d802e4ad4e79",
+                    "url": "https://images.credly.com/images/eec6f18d-b9f4-4d72-b55d-d802e4ad4e79/image.png"
+                },
+                "image_url": "https://images.credly.com/images/eec6f18d-b9f4-4d72-b55d-d802e4ad4e79/image.png",
+                "url": "https://www.credly.com/org/itau/badge/practitioner-leadership-d-a.1",
+                "owner_vanity_slug": "itau",
+                "badge_template_earnable": false,
+                "recommendable": false,
+                "issuer": {
+                    "summary": "issued by Itaú Unibanco",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "name": "Itaú Unibanco",
+                                "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "vanity_url": "https://www.credly.com/org/itau",
+                                "internationalize_badge_templates": true,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": null,
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "a909ba38-ca79-4b18-be0d-c80355aa81e5",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "Acesse todas as trilhas Practitioner - D\u0026A para Lideranças, veja os conteúdos e marque-os como concluído, não esqueça de seguir o plano.",
+                        "url": null
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "b786f0a9-2571-46a8-81b4-95035f0174b2",
+                        "name": "Analytics",
+                        "vanity_slug": "analytics"
+                    },
+                    {
+                        "id": "dd94ad72-5bc4-4df2-8561-c3396ce67358",
+                        "name": "Data Driven Instruction",
+                        "vanity_slug": "data-driven-instruction"
+                    },
+                    {
+                        "id": "c7818666-db7f-42d3-a135-d599e1823f11",
+                        "name": "Visão analítica",
+                        "vanity_slug": "visao-analitica"
+                    }
+                ]
+            },
+            "image": {
+                "id": "eec6f18d-b9f4-4d72-b55d-d802e4ad4e79",
+                "url": "https://images.credly.com/images/eec6f18d-b9f4-4d72-b55d-d802e4ad4e79/image.png"
+            },
+            "image_url": "https://images.credly.com/images/eec6f18d-b9f4-4d72-b55d-d802e4ad4e79/image.png",
+            "evidence": [],
+            "recommendations": []
+        },
+        {
+            "id": "d78e3f2a-e4d6-41e9-b4df-edc15e6c6bad",
+            "expires_at_date": null,
+            "issued_at_date": "2024-05-29",
+            "issued_to": "CARLOS HENRIQUE REIS",
+            "locale": "pt-BR",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": true,
+            "accepted_at": "2024-05-29T17:08:57.688-03:00",
+            "expires_at": null,
+            "issued_at": "2024-05-28T21:00:00.000-03:00",
+            "last_updated_at": "2024-05-29T17:08:57.688-03:00",
+            "updated_at": "2024-05-29T17:08:57.690-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": true,
+            "language": "pt-BR",
+            "issuer": {
+                "summary": "issued by Itaú Unibanco",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "name": "Itaú Unibanco",
+                            "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "vanity_url": "https://www.credly.com/org/itau",
+                            "internationalize_badge_templates": true,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": null,
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "e810eb2d-aad0-4346-9c27-abc6d5feab51",
+                "description": "De forma geral, o curso estima formar um especialista em privacidade para que ele possa atuar dentro do seu dia a dia, considerando o tema desde a concepção de suas iniciativas. Trata-se de uma abordagem focada em casos práticos, de forma a permitir que a proteção de dados esteja presente na ideação daquele negócio, produto ou área.",
+                "global_activity_url": null,
+                "earn_this_badge_url": null,
+                "enable_earn_this_badge": false,
+                "enable_detail_attribute_visibility": true,
+                "job_board_url": null,
+                "name": "Associate - Privacy Champion",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "associate-privacy-champion.1",
+                "show_badge_lmi": false,
+                "show_skill_tag_links": false,
+                "settings_enable_related_badges": true,
+                "translatable": true,
+                "level": "Intermediate",
+                "time_to_earn": null,
+                "cost": null,
+                "type_category": "Learning",
+                "language": "pt-BR",
+                "image": {
+                    "id": "5cf2a8a1-39cb-4d5b-a535-74bc8895b4d3",
+                    "url": "https://images.credly.com/images/5cf2a8a1-39cb-4d5b-a535-74bc8895b4d3/image.png"
+                },
+                "image_url": "https://images.credly.com/images/5cf2a8a1-39cb-4d5b-a535-74bc8895b4d3/image.png",
+                "url": "https://www.credly.com/org/itau/badge/associate-privacy-champion.1",
+                "owner_vanity_slug": "itau",
+                "badge_template_earnable": false,
+                "recommendable": false,
+                "issuer": {
+                    "summary": "issued by Itaú Unibanco",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "name": "Itaú Unibanco",
+                                "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "vanity_url": "https://www.credly.com/org/itau",
+                                "internationalize_badge_templates": true,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": null,
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "b04268bd-ed94-4ed9-878f-86b8e00ecd6e",
+                        "activity_type": "Assessment",
+                        "required_badge_template_id": null,
+                        "title": "Para obtenção do badge, o colaborador deverá completar as quatro trilhas para formação de um Privacy Champion disponíveis no IOX, e obter no mínimo, 75% de aprovação nas provas contidas nestas trilhas.",
+                        "url": null
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "452da3d9-5bee-4aee-806b-2098665af2ff",
+                        "name": "Data Governance",
+                        "vanity_slug": "data-governance"
+                    },
+                    {
+                        "id": "f44f71b4-0fee-43cf-a8aa-377cb7ce2851",
+                        "name": "Data Integrity",
+                        "vanity_slug": "data-integrity"
+                    },
+                    {
+                        "id": "407bf5ac-7530-492e-a340-57d8489288bf",
+                        "name": "Data Privacy Laws",
+                        "vanity_slug": "data-privacy-laws"
+                    }
+                ]
+            },
+            "image": {
+                "id": "5cf2a8a1-39cb-4d5b-a535-74bc8895b4d3",
+                "url": "https://images.credly.com/images/5cf2a8a1-39cb-4d5b-a535-74bc8895b4d3/image.png"
+            },
+            "image_url": "https://images.credly.com/images/5cf2a8a1-39cb-4d5b-a535-74bc8895b4d3/image.png",
+            "evidence": [],
+            "recommendations": []
+        },
+        {
+            "id": "abb7a2de-a97a-4982-be0e-69961143deff",
+            "expires_at_date": null,
+            "issued_at_date": "2024-08-30",
+            "issued_to": "CARLOS REIS",
+            "locale": "pt-BR",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": true,
+            "accepted_at": "2024-09-04T18:06:33.998-03:00",
+            "expires_at": null,
+            "issued_at": "2024-08-29T21:00:00.000-03:00",
+            "last_updated_at": "2024-09-04T18:06:34.124-03:00",
+            "updated_at": "2024-09-04T18:06:34.124-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": true,
+            "language": "pt-BR",
+            "issuer": {
+                "summary": "issued by Itaú Unibanco",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "name": "Itaú Unibanco",
+                            "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "vanity_url": "https://www.credly.com/org/itau",
+                            "internationalize_badge_templates": true,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": null,
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "7932568d-2b07-4b2a-a70c-839e11880ef0",
+                "description": "O nível Trained comprova que o colaborador utilizou o conhecimento do nível Foundation de forma significativamente autônoma em cenários de baixa complexidade.O colaborador do nível Trained deve:Ter aplicado ao menos 4 conhecimentos de arquitetura em uma ou mais iniciativas:- Estratégias de Cloud- Uso de DDD- Observability- Projetada para Falhar (Tolerância a Falhas)- Projetada para Evoluir- Segura por Padrão",
+                "global_activity_url": null,
+                "earn_this_badge_url": null,
+                "enable_earn_this_badge": false,
+                "enable_detail_attribute_visibility": false,
+                "job_board_url": null,
+                "name": "Arquitetura de Soluções Foundation (pt-BR)",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "arquitetura-de-solucoes-foundation-pt-br",
+                "show_badge_lmi": false,
+                "show_skill_tag_links": false,
+                "settings_enable_related_badges": true,
+                "translatable": true,
+                "level": null,
+                "time_to_earn": null,
+                "cost": null,
+                "type_category": null,
+                "language": "pt-BR",
+                "image": {
+                    "id": "e88bc4a2-9b3f-4645-ba36-c6c8bb54c3b5",
+                    "url": "https://images.credly.com/images/e88bc4a2-9b3f-4645-ba36-c6c8bb54c3b5/image.png"
+                },
+                "image_url": "https://images.credly.com/images/e88bc4a2-9b3f-4645-ba36-c6c8bb54c3b5/image.png",
+                "url": "https://www.credly.com/org/itau/badge/arquitetura-de-solucoes-foundation-pt-br",
+                "owner_vanity_slug": "itau",
+                "badge_template_earnable": false,
+                "recommendable": false,
+                "issuer": {
+                    "summary": "issued by Itaú Unibanco",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "name": "Itaú Unibanco",
+                                "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "vanity_url": "https://www.credly.com/org/itau",
+                                "internationalize_badge_templates": true,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": null,
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "3c12bc06-90ae-434b-91fb-44f0817aa3b2",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "1. Conceitos de Arquitetura- Visão das arquiteturas e Papel do Arquiteto de Solução- Princípios de Arquitetura",
+                        "url": null
+                    },
+                    {
+                        "id": "c368414d-3a16-4235-a248-82135f165b0e",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "2. Design do Negócio- Serviços de Negócios / MOA- Projeto vs Produto",
+                        "url": null
+                    },
+                    {
+                        "id": "dfec50e8-5419-4fd9-b3ea-66031c4fcd70",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "3. Domínios- Visão Funcional- DDD",
+                        "url": null
+                    },
+                    {
+                        "id": "18f00274-937a-474a-bdc6-1dfe08038db1",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "4. Processos/Análise de Segurança- AGR / PMS / GSI",
+                        "url": null
+                    },
+                    {
+                        "id": "785cfcaa-b7b0-4e8f-8cf3-787972afb85f",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "5. Estratégias de Modernização- Pilares de Modernização- Security Champion- Estratégias de Cloud- Integração Digital e suas Peças- Telemetria- Tolerância a Falhas",
+                        "url": null
+                    },
+                    {
+                        "id": "0cb9fde0-b6bf-458e-b58c-f760e4d9f0fc",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "6. Como formalizar a solução\"",
+                        "url": null
+                    },
+                    {
+                        "id": "dd90150a-d7c8-4550-a670-de4cad63dd6c",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "1. Completar a trilha IOX Arquitetura de Soluções - Foundation disponível na nossa plataforma interna de Learning Experience (Degreed); 2. Ter obtido nota superior a 70% na prova Arquitetura de Soluções - Foundation",
+                        "url": null
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "8bd9c336-0dcb-4d82-921b-68a283b3a94f",
+                        "name": "Arquitetura de soluções",
+                        "vanity_slug": "arquitetura-de-solucoes"
+                    },
+                    {
+                        "id": "08883d5b-a71c-4457-ae8a-6a31f90ec77a",
+                        "name": "Design do negocio",
+                        "vanity_slug": "design-do-negocio"
+                    },
+                    {
+                        "id": "3634614f-8151-42a5-b49b-f0d5d038b92f",
+                        "name": "Security Champion",
+                        "vanity_slug": "security-champion"
+                    },
+                    {
+                        "id": "220f0b3a-2432-4b24-9c8e-acfd2ededfa1",
+                        "name": "Telemetria",
+                        "vanity_slug": "telemetria.ceb4fab0"
+                    }
+                ]
+            },
+            "image": {
+                "id": "e88bc4a2-9b3f-4645-ba36-c6c8bb54c3b5",
+                "url": "https://images.credly.com/images/e88bc4a2-9b3f-4645-ba36-c6c8bb54c3b5/image.png"
+            },
+            "image_url": "https://images.credly.com/images/e88bc4a2-9b3f-4645-ba36-c6c8bb54c3b5/image.png",
+            "evidence": [],
+            "recommendations": []
+        },
+        {
+            "id": "daf71ad2-269a-4143-9479-b3519463a1f2",
+            "expires_at_date": null,
+            "issued_at_date": "2023-11-28",
+            "issued_to": "CARLOS HENRIQUE REIS",
+            "locale": "pt-BR",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": true,
+            "accepted_at": "2024-12-02T18:45:41.202-03:00",
+            "expires_at": null,
+            "issued_at": "2023-11-27T21:00:00.000-03:00",
+            "last_updated_at": "2024-12-02T18:45:41.322-03:00",
+            "updated_at": "2024-12-02T18:45:41.322-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": true,
+            "language": "pt-BR",
+            "issuer": {
+                "summary": "issued by Itaú Unibanco",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "name": "Itaú Unibanco",
+                            "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "vanity_url": "https://www.credly.com/org/itau",
+                            "internationalize_badge_templates": true,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": null,
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "18ad7231-149e-454d-b2e1-0dfaeb24ec0d",
+                "description": "O hub de \"Engenharia do Caos\" apresenta a importância de validarmos a resiliência implementada em nossos produtos por meio da Engenharia do Caos. Ele contempla conteúdos teóricos e práticos, além de mostrar a aplicação em ambientes produtivos. No nível trained é possível atestar Conceitos de engenharia do Caos, resiliência e nosso produto IUChaos.",
+                "global_activity_url": "https://degreed.com/pathway/3pm74vgg9n/pathway?newWindow=true",
+                "earn_this_badge_url": "https://degreed.com/pathway/3pm74vgg9n/pathway?newWindow=true",
+                "enable_earn_this_badge": true,
+                "enable_detail_attribute_visibility": true,
+                "job_board_url": null,
+                "name": "Engenharia do Caos - Trained (pt-BR)",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "engenharia-do-caos-trained-pt-br",
+                "show_badge_lmi": false,
+                "show_skill_tag_links": false,
+                "settings_enable_related_badges": true,
+                "translatable": true,
+                "level": "Foundational",
+                "time_to_earn": "Hours",
+                "cost": "N/A",
+                "type_category": "Learning",
+                "language": "pt-BR",
+                "image": {
+                    "id": "aed5fecc-f17d-49dc-915a-a579a31f72f7",
+                    "url": "https://images.credly.com/images/aed5fecc-f17d-49dc-915a-a579a31f72f7/blob"
+                },
+                "image_url": "https://images.credly.com/images/aed5fecc-f17d-49dc-915a-a579a31f72f7/blob",
+                "url": "https://www.credly.com/org/itau/badge/engenharia-do-caos-trained-pt-br",
+                "owner_vanity_slug": "itau",
+                "badge_template_earnable": true,
+                "recommendable": true,
+                "issuer": {
+                    "summary": "issued by Itaú Unibanco",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "name": "Itaú Unibanco",
+                                "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "vanity_url": "https://www.credly.com/org/itau",
+                                "internationalize_badge_templates": true,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": null,
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "f43c6329-ae93-4832-942d-ab7255c744c9",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "completude de 100% da trilha \"Engenharia do Caos - Trained\". A comprovação do conhecimento se da por um Quiz com 10 questões, que deve ser realizado ao fim da trilha com obtenção de 80% da nota.",
+                        "url": "https://degreed.com/pathway/3pm74vgg9n/pathway?newWindow=true"
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "8a8f24b2-b7e8-44c0-a2b6-82138892fc2d",
+                        "name": "Engenharia do Caos",
+                        "vanity_slug": "engenharia-do-caos"
+                    },
+                    {
+                        "id": "f64881c8-286a-4f36-bd9f-81e9da079b32",
+                        "name": "Resiliência de aplicações",
+                        "vanity_slug": "resiliencia-de-aplicacoes"
+                    },
+                    {
+                        "id": "f8a95305-de6e-4868-bfa4-f029b3b0156a",
+                        "name": "Teste de resiliência",
+                        "vanity_slug": "teste-de-resiliencia"
+                    }
+                ]
+            },
+            "image": {
+                "id": "aed5fecc-f17d-49dc-915a-a579a31f72f7",
+                "url": "https://images.credly.com/images/aed5fecc-f17d-49dc-915a-a579a31f72f7/blob"
+            },
+            "image_url": "https://images.credly.com/images/aed5fecc-f17d-49dc-915a-a579a31f72f7/blob",
+            "evidence": [],
+            "recommendations": []
+        },
+        {
+            "id": "c6a95d56-82e6-45e5-b7bc-6f4052586140",
+            "expires_at_date": null,
+            "issued_at_date": "2024-05-29",
+            "issued_to": "CARLOS HENRIQUE REIS",
+            "locale": "pt-BR",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": true,
+            "accepted_at": "2024-05-29T17:08:58.225-03:00",
+            "expires_at": null,
+            "issued_at": "2024-05-28T21:00:00.000-03:00",
+            "last_updated_at": "2024-05-29T17:08:58.225-03:00",
+            "updated_at": "2024-05-29T17:08:58.232-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": true,
+            "language": "pt-BR",
+            "issuer": {
+                "summary": "issued by Itaú Unibanco",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "name": "Itaú Unibanco",
+                            "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "vanity_url": "https://www.credly.com/org/itau",
+                            "internationalize_badge_templates": true,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": null,
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "f7c2c80d-0c34-404f-b2f1-a9cbc99dd31c",
+                "description": "A pessoa que possui esta Badge aprendeu como utilizar a plataforma de engenharia de machine learning. Ela possui conhecimento de quais finalidades determinadas ferramentas tem, como utilizá-las e quais tarefas operacionais são necessárias para que um projeto de machine learning chegue até a produção de maneira segura, estruturada e simples.",
+                "global_activity_url": null,
+                "earn_this_badge_url": null,
+                "enable_earn_this_badge": false,
+                "enable_detail_attribute_visibility": true,
+                "job_board_url": null,
+                "name": "Associate - Machine Learning Engineering",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "associate-machine-learning-engineering.1",
+                "show_badge_lmi": false,
+                "show_skill_tag_links": false,
+                "settings_enable_related_badges": true,
+                "translatable": true,
+                "level": "Intermediate",
+                "time_to_earn": null,
+                "cost": null,
+                "type_category": "Learning",
+                "language": "pt-BR",
+                "image": {
+                    "id": "0af3de47-d96c-47d0-9a8e-0ab06609ce67",
+                    "url": "https://images.credly.com/images/0af3de47-d96c-47d0-9a8e-0ab06609ce67/image.png"
+                },
+                "image_url": "https://images.credly.com/images/0af3de47-d96c-47d0-9a8e-0ab06609ce67/image.png",
+                "url": "https://www.credly.com/org/itau/badge/associate-machine-learning-engineering.1",
+                "owner_vanity_slug": "itau",
+                "badge_template_earnable": false,
+                "recommendable": false,
+                "issuer": {
+                    "summary": "issued by Itaú Unibanco",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "name": "Itaú Unibanco",
+                                "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "vanity_url": "https://www.credly.com/org/itau",
+                                "internationalize_badge_templates": true,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": null,
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "b04920a9-abeb-4b9e-99f2-d94d4c9fe0ab",
+                        "activity_type": "Assessment",
+                        "required_badge_template_id": null,
+                        "title": "Faça todos os testes intermediários e a prova final do Plano Associate - MlOps e consiga nota igual ou maior que 5.",
+                        "url": null
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "b463b932-dae2-4dfa-88b8-22063c4240fd",
+                        "name": "Algorithms",
+                        "vanity_slug": "algorithms"
+                    },
+                    {
+                        "id": "b7c64ba4-9f39-411a-a4ef-eae166561d8b",
+                        "name": "Machine Learning (ML)",
+                        "vanity_slug": "machine-learning-ml"
+                    },
+                    {
+                        "id": "cd6437df-864a-4033-9b84-de08950da266",
+                        "name": "Structured Analysis",
+                        "vanity_slug": "structured-analysis"
+                    }
+                ]
+            },
+            "image": {
+                "id": "0af3de47-d96c-47d0-9a8e-0ab06609ce67",
+                "url": "https://images.credly.com/images/0af3de47-d96c-47d0-9a8e-0ab06609ce67/image.png"
+            },
+            "image_url": "https://images.credly.com/images/0af3de47-d96c-47d0-9a8e-0ab06609ce67/image.png",
+            "evidence": [],
+            "recommendations": []
+        },
+        {
+            "id": "5f421fa3-91b5-4111-8df0-49549ebdf4e0",
+            "expires_at_date": null,
+            "issued_at_date": "2024-08-30",
+            "issued_to": "CARLOS HENRIQUE REIS",
+            "locale": "pt-BR",
+            "public": true,
+            "state": "accepted",
+            "translate_metadata": true,
+            "accepted_at": "2024-09-06T17:37:35.186-03:00",
+            "expires_at": null,
+            "issued_at": "2024-08-29T21:00:00.000-03:00",
+            "last_updated_at": "2024-09-06T17:37:35.314-03:00",
+            "updated_at": "2024-09-06T17:37:35.314-03:00",
+            "earner_path": "/users/carlos-henrique-reis",
+            "earner_photo_url": null,
+            "is_private_badge": false,
+            "user_is_earner": false,
+            "printable": true,
+            "language": "pt-BR",
+            "issuer": {
+                "summary": "issued by Itaú Unibanco",
+                "entities": [
+                    {
+                        "label": "Issued by",
+                        "primary": true,
+                        "entity": {
+                            "type": "Organization",
+                            "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "name": "Itaú Unibanco",
+                            "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                            "vanity_url": "https://www.credly.com/org/itau",
+                            "internationalize_badge_templates": true,
+                            "share_to_ziprecruiter": true,
+                            "twitter_url": null,
+                            "verified": false
+                        }
+                    }
+                ]
+            },
+            "badge_template": {
+                "id": "cd15f09b-29b9-4c86-9f9d-9bdea530697a",
+                "description": "O nível Trained comprova que o colaborador utilizou o conhecimento do nível Foundation de forma significativamente autônoma em cenários de baixa complexidade.",
+                "global_activity_url": null,
+                "earn_this_badge_url": null,
+                "enable_earn_this_badge": false,
+                "enable_detail_attribute_visibility": false,
+                "job_board_url": null,
+                "name": "Arquitetura de Soluções Trained (pt-BR)",
+                "public": true,
+                "recipient_type": "User",
+                "vanity_slug": "arquitetura-de-solucoes-trained-pt-br",
+                "show_badge_lmi": false,
+                "show_skill_tag_links": false,
+                "settings_enable_related_badges": true,
+                "translatable": true,
+                "level": null,
+                "time_to_earn": null,
+                "cost": null,
+                "type_category": null,
+                "language": "pt-BR",
+                "image": {
+                    "id": "0f9f7115-751f-498f-b7b3-6d958bdd1e7b",
+                    "url": "https://images.credly.com/images/0f9f7115-751f-498f-b7b3-6d958bdd1e7b/image.png"
+                },
+                "image_url": "https://images.credly.com/images/0f9f7115-751f-498f-b7b3-6d958bdd1e7b/image.png",
+                "url": "https://www.credly.com/org/itau/badge/arquitetura-de-solucoes-trained-pt-br",
+                "owner_vanity_slug": "itau",
+                "badge_template_earnable": false,
+                "recommendable": false,
+                "issuer": {
+                    "summary": "issued by Itaú Unibanco",
+                    "entities": [
+                        {
+                            "label": "Issued by",
+                            "primary": true,
+                            "entity": {
+                                "type": "Organization",
+                                "id": "8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "name": "Itaú Unibanco",
+                                "url": "https://www.credly.com/api/v1/organizations/8d1541bc-8ae2-4d3d-b1c5-82d8855d5537",
+                                "vanity_url": "https://www.credly.com/org/itau",
+                                "internationalize_badge_templates": true,
+                                "share_to_ziprecruiter": true,
+                                "twitter_url": null,
+                                "verified": false
+                            }
+                        }
+                    ]
+                },
+                "related_badge_templates": [],
+                "alignments": [],
+                "badge_template_activities": [
+                    {
+                        "id": "a5116ea6-e895-4a99-9534-740d5d588910",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "Ter aplicado ao menos 4 conhecimentos de arquitetura em uma ou mais iniciativas:- Estratégias de Cloud- Uso de DDD- Observability- Projetada para Falhar (Tolerância a Falhas)- Projetada para Evoluir- Segura por Padrão",
+                        "url": null
+                    },
+                    {
+                        "id": "f27629ed-8880-4dac-b05c-5cfcc8fe1c74",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "1. Conceitos de Arquitetura- Visão das arquiteturas e Papel do Arquiteto de Solução- Princípios de Arquitetura",
+                        "url": null
+                    },
+                    {
+                        "id": "8685bf82-20ef-47c1-a240-78669f071b84",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "2. Design do Negócio- Serviços de Negócios / MOA- Projeto vs Produto",
+                        "url": null
+                    },
+                    {
+                        "id": "7e287bac-369d-433f-80a5-97d0ece39c3b",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "3. Domínios- Visão Funcional- DDD",
+                        "url": null
+                    },
+                    {
+                        "id": "c016e49c-7d57-4f30-86ae-08deb311faea",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "4. Processos/Análise de Segurança- AGR / PMS / GSI",
+                        "url": null
+                    },
+                    {
+                        "id": "095337de-7186-4aaa-bd92-d4689f79fab2",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "5. Estratégias de Modernização- Pilares de Modernização- Security Champion- Estratégias de Cloud- Integração Digital e suas Peças- Telemetria- Tolerância a Falhas",
+                        "url": null
+                    },
+                    {
+                        "id": "2fc199c4-79f2-4477-990d-3be6e179cb1f",
+                        "activity_type": "Course",
+                        "required_badge_template_id": null,
+                        "title": "6. \"Como formalizar a solução\"",
+                        "url": null
+                    }
+                ],
+                "endorsements": [],
+                "skills": [
+                    {
+                        "id": "8bd9c336-0dcb-4d82-921b-68a283b3a94f",
+                        "name": "Arquitetura de soluções",
+                        "vanity_slug": "arquitetura-de-solucoes"
+                    },
+                    {
+                        "id": "aa91543a-07e5-410c-9e28-cb3fff942df1",
+                        "name": "Estratégia de Cloud",
+                        "vanity_slug": "estrategia-de-cloud"
+                    },
+                    {
+                        "id": "44cbea95-f70b-4d2c-a6d1-6a8acf0b98fb",
+                        "name": "Observability",
+                        "vanity_slug": "observability"
+                    }
+                ]
+            },
+            "image": {
+                "id": "0f9f7115-751f-498f-b7b3-6d958bdd1e7b",
+                "url": "https://images.credly.com/images/0f9f7115-751f-498f-b7b3-6d958bdd1e7b/image.png"
+            },
+            "image_url": "https://images.credly.com/images/0f9f7115-751f-498f-b7b3-6d958bdd1e7b/image.png",
+            "evidence": [],
+            "recommendations": []
+        }
+    ],
+    "metadata": {
+        "count": 10,
+        "current_page": 1,
+        "total_count": 10,
+        "total_pages": 1,
+        "per": 48,
+        "previous_page_url": null,
+        "next_page_url": null
+    }
+}

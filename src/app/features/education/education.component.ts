@@ -29,7 +29,7 @@ export class EducationComponent {
 
   constructor(
     private translate: TranslateService,
-    private serviceBadge: BadgeService
+    private badgeService: BadgeService
   ) {}
 
   ngOnInit(): void {
@@ -54,19 +54,14 @@ export class EducationComponent {
     });
   }
 
-  loadBadges() {
+  async loadBadges() {
     this.loading = true;
-    this.serviceBadge.getBadges().subscribe({
-      next: (data: any) => {
-          this.badges = data.data;
-          this.loading = false;
-          this.badgesContent = true;
-      },
-      error: (error: any) => {
-        console.error('Error loading badges:', error);
-        this.loading = false;
-        this.badgesContent = false;
-      }
+    console.log(await this.badgeService.getBadges());
+
+    await this.badgeService.getBadges().then((badges: any) => {
+      this.badges = badges.data;
+      this.loading = false;
+      this.badgesContent = true;
     });
   }
 
