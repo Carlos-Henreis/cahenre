@@ -1,6 +1,6 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
+import type { IncomingMessage, ServerResponse } from 'http';
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+module.exports = async function handler(req: IncomingMessage, res: ServerResponse) {
   try {
     const response = await fetch('https://www.credly.com/users/carlos-henrique-reis/badges.json');
 
@@ -9,13 +9,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     const data = await response.json();
-    res.status(200).json(data);
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(data));
   } catch (error: any) {
     console.error('Erro na função /api/badges:', error.message || error);
 
-    res.status(500).json({
+    res.statusCode = 500;
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify({
       error: 'Erro ao buscar dados de badges',
       details: error.message || error
-    });
+    }));
   }
 }
