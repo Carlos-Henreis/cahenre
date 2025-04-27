@@ -1,0 +1,69 @@
+.image-wrapper {
+  position: relative;
+  display: block;
+  /* ou block, dependendo do contexto */
+}
+
+.base-image {
+  display: block;
+}
+
+.mat-toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbar-draggable {
+  padding: 0 !important;
+  background-color: var(--mat-sys-primary-container) !important;
+
+  @media screen and (max-width: 1279px) {
+    justify-content: center !important;
+  }
+}
+
+.toolbar-draggable > * {
+  margin: 16px;
+}
+
+.draggable-blur-mask-page {
+  display: flex;
+  justify-content: left;
+  background-color: var(--mat-sys-surface-container);
+  width: fit-content;
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 240px;
+    margin-left: 12px;
+  }
+
+  .box-border {
+    border: 1px solid var(--mat-sys-outline);
+    border-radius: 8px;
+    padding: 16px;  }
+
+  .editor {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .image-wrapper {
+      position: relative;
+      width: fit-content;
+    }
+
+    .base-image {
+      width: auto;
+      max-height: 480px;
+      display: block;
+
+      /* Se a tela for menor que 600px a imgem não pode altrapassar a tela */
+      @media (max-width: 599px) {
+        max-height: 85vh;
+        max-width: 85vw;
+      }
+    }
+  }
+}

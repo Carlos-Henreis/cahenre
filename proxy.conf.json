@@ -1,0 +1,11 @@
+{
+    "/api/badges": {
+      "target": "https://www.credly.com",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api/badges": "/users/carlos-henrique-reis/badges.json"
+      }
+    }
+  }
+  

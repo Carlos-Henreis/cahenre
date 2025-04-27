@@ -1,0 +1,74 @@
+
+
+<div class="draggable-blur-mask-page">
+  <div class="editor box-border">
+    <mat-toolbar class="toolbar-draggable">
+      <button mat-icon-button [matMenuTriggerFor]="menu"
+        *ngIf="!screen.isDesktop()"><mat-icon>menu</mat-icon></button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="openFilterDialog()">
+          <mat-icon>adjust</mat-icon>
+          <span>{{ 'PROJ-DRAG-CONTROLS-TITLE' | translate }}</span>
+        </button>
+
+
+        <button mat-menu-item (click)="reset()">
+          <mat-icon>refresh</mat-icon>
+          <span>{{ 'PROJ-DRAG-RESET' | translate }}</span>
+        </button>
+        <button mat-menu-item (click)="downloadImage()">
+          <mat-icon>download</mat-icon>
+          <span>Download</span>
+        </button>
+        <input-file (preview)="onBase64Received($event)"
+        *ngIf="!screen.isDesktop()"> </input-file>
+      </mat-menu>
+      <input-file (preview)="onBase64Received($event)"
+        *ngIf="screen.isDesktop()"> </input-file>
+      <span class="mat-toolbar-spacer" *ngIf="screen.isDesktop()"></span>
+      <button mat-flat-button color="primary" *ngIf="screen.isDesktop()" (click)="downloadImage()">
+        <mat-icon>download</mat-icon>
+        Download
+      </button>
+    </mat-toolbar>
+    <div class="image-wrapper">
+      <img [src]="preview != ''? preview : '/shiba.jpg'" class="base-image"
+        #wrapperRef (load)="onImageLoad()" />
+      <blur-mask
+        [wrapper]="wrapperRef"
+        [blur]="data.blur"
+        [diameter]="data.diameter"
+        [borderRadius]="data.borderRadius"
+        [newImage]="newImage"
+        (posEmitter)="getPositionMask($event)"></blur-mask>
+    </div>
+  </div>
+  <!-- controles -->
+  <div class="controls box-border" *ngIf="screen.isDesktop()">
+    <mat-toolbar class="toolbar-draggable" color="primary">
+      <span>{{ 'PROJ-DRAG-CONTROLS-TITLE' | translate }}</span>
+      <span class="mat-toolbar-spacer"></span>
+      <button mat-flat-button color="primary" (click)="reset()">
+        <mat-icon>refresh</mat-icon>
+        <span>{{ 'PROJ-DRAG-RESET' | translate }}</span>
+      </button>
+    </mat-toolbar>
+
+    <mat-label>{{ 'PROJ-DRAG-BLUR' | translate }} {{ data.blur }}px</mat-label>
+    <mat-slider min="0" [max]="data.maxBlur">
+      <input matSliderThumb [(ngModel)]="data.blur" />
+    </mat-slider>
+
+    <mat-label>{{ 'PROJ-DRAG-DIAMETER' | translate }} {{ data.diameter }}px</mat-label>
+    <mat-slider min="0" [max]="data.maxDiameter">
+      <input matSliderThumb [(ngModel)]="data.diameter" />
+    </mat-slider>
+
+    <mat-label>{{ 'PROJ-DRAG-BORDER-RADIUS' | translate }} {{ data.borderRadius }}%</mat-label>
+    <mat-slider min="0" [max]="data.maxBorderRadius">
+      <input matSliderThumb [(ngModel)]="data.borderRadius" />
+    </mat-slider>
+
+    <mat-slide-toggle [(ngModel)]="isBorder"> {{ 'PROJ-DRAG-MASK-BORDER' | translate }} </mat-slide-toggle>
+  </div>
+  <canvas #canvas style="display:none;"></canvas>

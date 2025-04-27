@@ -1,0 +1,23 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    text-align: justify !important;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.experience-card {
+    margin-top: 12px;
+    padding: 12px;
+    height: 100%;
+ }
+
+ .experience-footer {
+    padding: 16px;
+ }
+
+.experience-card:hover {
+    opacity: 1;
+ }

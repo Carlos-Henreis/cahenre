@@ -1,0 +1,34 @@
+<div class="skill-container">
+
+  <div class="section-title">
+    <p class="mat-display-medium">{{ 'SKILLS-TITLE-1' | translate }}</p>
+  </div>
+  <div class="interests-grid">
+    <mat-card class="interest-card" *ngFor="let interest of interests" appearance="outlined">
+      <mat-icon class="icon" [fontSet]="interest.fontSet" [fontIcon]="interest.icon"></mat-icon>
+      <span class="text">{{ interest.title | translate }}</span>
+    </mat-card>
+  </div>
+
+  <div class="section-title">
+    <p class="mat-display-medium">{{ 'SKILLS-TITLE-2' | translate }}</p>
+  </div>
+  <div class="soft-skills-container">
+    <p class="mat-display-small">Soft Skills</p>
+    <div class="soft-skills-grid">
+      <mat-card class="soft-card" appearance="outlined" *ngFor="let skill of skills.softSkills">
+        <mat-icon class="soft-icon">{{ skill.icon }}</mat-icon>
+        <p class="mat-headline-small">{{ skill.title  | translate }}</p>
+        <p class="mat-body-small">{{ skill.description | translate }}</p>
+      </mat-card>
+    </div>
+  </div>
+
+  <div class="hard-skills-container">
+    <p class="mat-display-small">Hard Skills</p>
+    <div *ngFor="let section of skills.hardSkills | keyvalue" class="skill-section">
+      <p class="mat-headline-small">{{ section.key | translate }}</p>
+      <img class="skill-image" *ngFor="let skill of section.value" [src]="skill.link" [alt]="skill.title" [matTooltip]="skill.title"/>
+    </div>
+  </div>
+</div>

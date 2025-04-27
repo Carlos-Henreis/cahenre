@@ -1,0 +1,39 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    text-align: justify !important;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 60px;
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.profile-image {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    .about-container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .section-content {
+        flex-direction: column;
+        text-align: justify !important;
+    }
+
+    .profile-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 600px;
+    }
+    
+}

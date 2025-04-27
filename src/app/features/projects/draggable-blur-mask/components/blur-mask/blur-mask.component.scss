@@ -1,0 +1,7 @@
+.blur-mask {
+    position: absolute;
+    backdrop-filter: blur(14px);
+    border: 2px solid var(--mat-sys-on-primary-fixed);
+    cursor: move;
+    z-index: 10;
+  }

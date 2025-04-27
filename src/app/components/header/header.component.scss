@@ -1,0 +1,53 @@
+.header {
+    top: 0;
+    z-index: 2;
+    color: var(--mat-sys-primary) !important;
+    background: var(--mat-sys-primary-container);
+}
+
+.social-links a {
+    border-radius: 50%;
+}
+
+.avatar img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid color-mix(in srgb, var(--mat-sys-on-primary-fixed), transparent 85%);
+    border-radius: 50% !important;
+}
+
+.name-header {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    justify-content: center !important;
+    display: flex;
+    color: var(--heading-color);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social-links a {
+    margin: 0 3px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-menu {
+    margin-top: 20px;
+}
+
+button.mat-button .mat-icon,
+a.mat-button .mat-icon,
+a.mat-raised-button .mat-icon,
+a.mat-flat-button .mat-icon,
+a.mat-stroked-button .mat-icon {
+    vertical-align: top;
+    font-size: 1.25em;
+}

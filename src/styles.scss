@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+// Cria o tema com esquema de cores e tipografia
+$my-theme: mat.define-theme((
+  color: (
+  ),
+));
+
+// Inclui o core
+@include mat.core();
+
+// Aplica tipografia baseada no tema
+@include mat.typography-hierarchy($my-theme);
+
+// (opcional) Define estilos para :root
+:root {
+  --mdc-list-list-item-label-text-color: var(--mat-sys-primary);
+}
+
+.mat-icon.fa,
+.mat-icon.fab {
+  font-size: 20px !important;
+  vertical-align: middle;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

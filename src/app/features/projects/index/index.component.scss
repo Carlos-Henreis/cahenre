@@ -1,0 +1,58 @@
+.project-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+    @media (max-width: 1400px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.project-card {
+    max-width: 35vw !important;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+  
+    &:hover {
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+      transform: translateY(-2px);
+    }
+  
+    &:active {
+      transform: scale(0.98);
+    }
+  
+    &:focus {
+      outline: 2px solid #3f51b5;
+    }
+
+    @media (max-width: 1400px) {
+        grid-template-columns: 1fr;
+        max-width: 90vw !important;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        max-height: 380px;
+        min-height: 380px;
+        object-fit: cover;
+    }
+
+    mat-card-header {
+        margin-bottom: 12px;
+    }
+
+    mat-card-content {
+        padding: 16px;
+
+        mat-chip-set {
+            margin-bottom: 24px;
+        }
+    }
+
+}

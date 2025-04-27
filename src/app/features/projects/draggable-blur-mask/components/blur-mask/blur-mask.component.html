@@ -1,0 +1,19 @@
+<div
+    class="blur-mask"
+    #maskRef
+    (mousedown)="startDragMouse($event)"
+    (mouseup)="stopDragMouse()"
+    (mousemove)="onMouseMove($event)"
+    (touchstart)="startDragTouch($event)"
+    (touchend)="stopDragTouch()"
+    (touchmove)="onTouchMove($event)"
+    [ngStyle]="{
+        width: diameter + 'px',
+        height: diameter + 'px',
+        top: position.y + 'px',
+        left: position.x + 'px',
+        borderRadius: borderRadius + '%',
+        overflow: 'hidden',
+        backdropFilter: 'blur(' + blur + 'px)'
+    }"
+></div>

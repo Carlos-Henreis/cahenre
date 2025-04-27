@@ -1,0 +1,57 @@
+<div class="education-container">
+    <div class="section-title">
+        <p class="mat-display-medium">{{ 'EDUCATION-TITLE-1' | translate }}</p>
+        <span class="mat-body-large">{{ 'EDUCATION-INTRO-1' | translate
+            }}</span>
+    </div>
+    <div class="education-content">
+        <mat-card
+            *ngFor="let education of educations"
+            class="education-card"
+            appearance="outlined"
+        >
+            <div class="education-image">
+                <img [src]="education.image" [alt]="education.institution" />
+            </div>
+            <mat-card-header class="education-card-header">
+                <mat-card-title>
+                    <mat-icon>school</mat-icon>
+                    {{ education.title | translate }}
+                </mat-card-title>
+                <mat-card-subtitle>
+                    {{ education.institution | translate }} - {{
+                    education.period | translate }}
+                </mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content class="education-card-content">
+                <p class="mat-body-large"> <mat-icon>topic</mat-icon> {{
+                    education.theme | translate }}</p>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="badge-content">
+        <div class="loading-badges" *ngIf="loading">
+            <mat-spinner></mat-spinner>
+        </div>
+    </div>
+    <div *ngIf="badgesContent">
+        <div class="section-title">
+            <p class="mat-display-medium">{{ 'EDUCATION-TITLE-2' | translate
+                }}</p>
+            <span class="mat-body-large">{{ 'EDUCATION-INTRO-2' | translate}}</span>
+        </div>
+
+        <div class="badge-grid">
+            <mat-card hover *ngFor="let badge of badges" class="badge-card" appearance="outlined" (click) = "openBadge(badge)">
+                <div class="badge-image">
+                    <img [src]="badge.image_url" [alt]="badge.badge_template.name" />
+                </div>
+                <mat-card-content>
+                    <h3 class="badge-title">{{ badge.badge_template.name }}</h3>
+                    <p class="badge-org">{{ badge.badge_template.issuer.entities[0].entity.name }}</p>
+                    <p class="badge-issued">{{ 'EDUCATION-BADGE-ISSUED' | translate }} {{ badge.issued_at_date | date: 'longDate' : '': ('EDUCATION-LOCAL-DATE' | translate) }}</p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>

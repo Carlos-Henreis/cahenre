@@ -1,0 +1,17 @@
+<div class="about-container">
+    <div class="section-title">
+        <p class="mat-display-medium">{{ 'ABOUT-TITLE' | translate }}</p>
+        <span class="mat-body-large">{{ 'ABOUT-INTRO' | translate }}</span>
+    </div>
+    <div class="section-content">
+        <img src="/profile-1.jpg" alt="Carlos Henrique Reis" class="profile-image" />
+        <div class="about-resume">
+            <p
+                *ngFor="let item of info"
+            >
+                <span class="mat-title-large"><mat-icon> arrow_right </mat-icon>{{ item.label | translate }}:</span> <span class="mat-body-large"> {{item.value | translate }}</span>
+            </p>
+        </div>
+    </div>
+</div>
+

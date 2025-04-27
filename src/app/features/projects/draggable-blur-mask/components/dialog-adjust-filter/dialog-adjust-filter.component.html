@@ -1,0 +1,22 @@
+<h2 mat-dialog-title>{{ 'PROJ-DRAG-DIALOG-TITLE' | translate }}</h2>
+<mat-dialog-content class="controls">
+    <mat-label>{{ 'PROJ-DRAG-DIALOG-BLUR' | translate }} {{ data.blur }}px</mat-label>
+    <mat-slider>
+      <input matSliderThumb [(ngModel)]="data.blur" min="0" [max]="data.maxBlur"  />
+    </mat-slider>
+
+    <mat-label>{{ 'PROJ-DRAG-DIALOG-DIAMETER' | translate }} {{ data.diameter }}px</mat-label>
+    <mat-slider min="0" [max]="data.maxDiameter">
+      <input matSliderThumb [(ngModel)]="data.diameter"/>
+    </mat-slider>
+
+    <mat-label>{{ 'PROJ-DRAG-DIALOG-BORDER-RADIUS' | translate }} {{ data.borderRadius }}%</mat-label>
+    <mat-slider>
+      <input matSliderThumb [(ngModel)]="data.borderRadius" min="0" [max]="data.maxBorderRadius" />
+    </mat-slider>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button mat-button (click)="onCancel()">{{ 'PROJ-DRAG-DIALOG-CANCEL' | translate }}</button>
+    <button mat-raised-button color="primary" (click)="onSave()">{{ 'PROJ-DRAG-DIALOG-SAVE' | translate }}</button>
+</mat-dialog-actions>

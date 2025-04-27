@@ -1,0 +1,29 @@
+<mat-form-field 
+  appearance="outline" 
+  subscriptSizing="dynamic" 
+  (click)="openFilePicker()" 
+  *ngIf="screen.isDesktop()"
+  color="primary"
+>
+    <mat-label>{{'PROJ-DRAG-INPUT-FILE' | translate }}</mat-label>
+    <mat-icon matPrefix>attach_file</mat-icon>
+    <input 
+        matInput 
+        [value]="fileName" 
+        readonly 
+    />
+
+  </mat-form-field>
+
+  <button mat-menu-item *ngIf="!screen.isDesktop()" (click)="openFilePicker()" >
+    <mat-icon>file_upload</mat-icon>
+    <span>Upload</span>
+  </button>
+
+  <input 
+    type="file" 
+    #fileInput 
+    hidden 
+    (change)="onFileSelected($event)" 
+    accept="image/*"
+   />

@@ -1,0 +1,38 @@
+<div class="experience-container">
+    <div class="section-title">
+        <p class="mat-display-medium">{{ 'EXPERIENCE-TITLE' | translate }}</p>
+        <span class="mat-body-large">{{ 'EXPERIENCE-INTRO' | translate }}</span>
+    </div>
+    <div fxLayout="row wrap" class="experience-wrapper">
+        <mat-card 
+            *ngFor="let exp of experiences" 
+            appearance="outlined"
+            class="experience-card"
+        >
+            <mat-card-header style="padding: 16px;">
+              <mat-card-title>  
+                <mat-icon>domain</mat-icon>
+                {{ exp.company | translate }}
+              </mat-card-title>
+              <mat-card-subtitle>
+                <p> <mat-icon>today</mat-icon> {{ exp.period | translate }} <br/>
+                    <mat-icon>work</mat-icon> {{ exp.position | translate }} — {{ exp.product | translate }} 
+                </p>
+                </mat-card-subtitle>
+            </mat-card-header>
+            <mat-divider></mat-divider>
+            <mat-card-content style="padding: 16px;">
+              <p>{{ exp.description | translate }}</p>
+            </mat-card-content>
+            <mat-card-footer class="experience-footer" style="padding: 16px;">
+                <mat-chip-set>
+                    <mat-chip *ngFor="let tech of exp.technologies">
+                        {{ tech }}
+                    </mat-chip>
+                </mat-chip-set>
+            </mat-card-footer>
+          </mat-card>
+        
+
+    </div>
+</div>

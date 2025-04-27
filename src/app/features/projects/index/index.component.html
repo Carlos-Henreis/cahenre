@@ -1,0 +1,28 @@
+<div class="section-title">
+    <p class="mat-display-medium">{{ 'PROJECTS-TITLE-1' | translate }}</p>
+    <span class="mat-body-large">{{ 'PROJECTS-INTRO-1' | translate}}</span>
+</div>
+<div class="project-content">
+    <mat-card
+        hover
+        *ngFor="let project of projects"
+        class="project-card"
+        appearance="outlined"
+        (click) = "openProject(project)"
+    >
+        <mat-card-header>
+            <mat-card-title>{{ project.title | translate }}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="project.image" />
+        <mat-card-content>
+            <mat-chip-set>
+                <mat-chip *ngFor="let tech of project.tags">
+                    {{ tech }}
+                </mat-chip>
+            </mat-chip-set>
+            <p class="mat-title-medium"> More Info</p>
+            <p class="mat-body-medium">{{ project.description | translate }}</p>
+
+        </mat-card-content>
+    </mat-card>
+</div>
