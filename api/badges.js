@@ -1,6 +1,4 @@
-import type { IncomingMessage, ServerResponse } from 'http';
-
-module.exports = async function handler(req: IncomingMessage, res: ServerResponse) {
+module.exports = async (req, res) => {
   try {
     const response = await fetch('https://www.credly.com/users/carlos-henrique-reis/badges.json');
 
@@ -12,7 +10,7 @@ module.exports = async function handler(req: IncomingMessage, res: ServerRespons
     res.statusCode = 200;
     res.setHeader('Content-Type', 'application/json');
     res.end(JSON.stringify(data));
-  } catch (error: any) {
+  } catch (error) {
     console.error('Erro na função /api/badges:', error.message || error);
 
     res.statusCode = 500;
@@ -22,4 +20,4 @@ module.exports = async function handler(req: IncomingMessage, res: ServerRespons
       details: error.message || error
     }));
   }
-}
+};
