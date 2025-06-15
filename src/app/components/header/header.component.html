@@ -1,6 +1,6 @@
 <!-- Avatar -->
 <div class="avatar">
-  <img src="profile.jpg" alt="User Avatar" />
+    <img src="profile.jpg" alt="Carlos Henrique Reis">
 </div>
 <!-- 
 Name
@@ -10,30 +10,62 @@ Name
 social-links
 -->
 <div class="social-links">
-    <a mat-mini-fab href="https://www.linkedin.com/in/cahenre/" target="_blank" matTooltip="LinkedIn">
+    <a mat-mini-fab href="https://www.linkedin.com/in/cahenre/" target="_blank"
+        matTooltip="LinkedIn">
         <mat-icon svgIcon="linkedin"></mat-icon>
     </a>
-    <a mat-mini-fab href="https://github.com/Carlos-Henreis" target="_blank" matTooltip="GitHub">
+    <a mat-mini-fab href="https://github.com/Carlos-Henreis" target="_blank"
+        matTooltip="GitHub">
         <mat-icon svgIcon="github"></mat-icon>
     </a>
-    <a mat-mini-fab href="https://carloshenriquereis-17318.medium.com/" target="_blank" matTooltip="Medium">
+    <a mat-mini-fab href="https://carloshenriquereis-17318.medium.com/"
+        target="_blank" matTooltip="Medium">
         <mat-icon svgIcon="medium"></mat-icon>
     </a>
-    <a mat-mini-fab href="https://stackoverflow.com/users/9748836/carlos-henrique-reis" target="_blank" matTooltip="Stackoverflow">
+    <a mat-mini-fab
+        href="https://stackoverflow.com/users/9748836/carlos-henrique-reis"
+        target="_blank" matTooltip="Stackoverflow">
         <mat-icon svgIcon="stackoverflow"></mat-icon>
     </a>
-    <a mat-mini-fab href="https://www.instagram.com/carlos.henrique.zip/" target="_blank" matTooltip="Instagram">
+    <a mat-mini-fab href="https://www.instagram.com/carlos.henrique.zip/"
+        target="_blank" matTooltip="Instagram">
         <mat-icon svgIcon="instagram"></mat-icon>
     </a>
 </div>
 <!--
 navmenu
 -->
-<mat-nav-list class="nav-menu">
-    <a mat-list-item routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }"> <mat-icon matListItemIcon>home</mat-icon>{{ 'HEADER-MENU-HOME' | translate }}</a>
-    <a mat-list-item routerLink="/about" routerLinkActive="active-link"> <mat-icon matListItemIcon>account_circle</mat-icon>{{ 'HEADER-MENU-ABOUT' | translate }}</a>
-    <a mat-list-item routerLink="/professional-experience" routerLinkActive="active-link"> <mat-icon matListItemIcon>work</mat-icon>{{ 'HEADER-MENU-PROFESSIONAL-EXPERIENCE' | translate }}</a>
-    <a mat-list-item routerLink="/education" routerLinkActive="active-link"> <mat-icon matListItemIcon>school</mat-icon>{{ 'HEADER-MENU-EDUCATION' | translate }}</a>
-    <a mat-list-item routerLink="/skills" routerLinkActive="active-link"> <mat-icon matListItemIcon>interests</mat-icon>{{ 'HEADER-MENU-INTERESTS-SKILLS' | translate }}</a>
-    <a mat-list-item routerLink="/projects" routerLinkActive="active-link"> <mat-icon matListItemIcon>folder</mat-icon>{{ 'HEADER-MENU-PROJECTS' | translate }}</a>
+<mat-nav-list class="nav-menu" (click)="fecharHeader()">
+    <a mat-list-item routerLink="/" routerLinkActive="active-link"
+        [routerLinkActiveOptions]="{ exact: true }"> <mat-icon
+            matListItemIcon>home</mat-icon>{{ 'HEADER-MENU-HOME' | translate
+        }}</a>
+    <a mat-list-item routerLink="/about" routerLinkActive="active-link">
+        <mat-icon matListItemIcon>account_circle</mat-icon>{{
+        'HEADER-MENU-ABOUT' | translate }}</a>
+    <a mat-list-item routerLink="/professional-experience"
+        routerLinkActive="active-link"> <mat-icon
+            matListItemIcon>work</mat-icon>{{
+        'HEADER-MENU-PROFESSIONAL-EXPERIENCE' | translate }}</a>
+    <a mat-list-item routerLink="/education" routerLinkActive="active-link">
+        <mat-icon matListItemIcon>school</mat-icon>{{ 'HEADER-MENU-EDUCATION' |
+        translate }}</a>
+    <a mat-list-item routerLink="/skills" routerLinkActive="active-link">
+        <mat-icon matListItemIcon>interests</mat-icon>{{
+        'HEADER-MENU-INTERESTS-SKILLS' | translate }}</a>
+    <a mat-list-item routerLink="/projects" routerLinkActive="active-link">
+        <mat-icon matListItemIcon>folder</mat-icon>{{ 'HEADER-MENU-PROJECTS' |
+        translate }}</a>
+    <a mat-list-item matButton (click)="openChangeLanguageDialog()"> <mat-icon
+            matListItemIcon>translate</mat-icon> {{ 'CHANGE-LANGUAGE' |
+        translate }}</a>
 </mat-nav-list>
+
+<mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="trocarIdioma('pt')">
+        <span>{{ 'LANGUAGE-PT' | translate }}</span>
+    </button>
+    <button mat-menu-item (click)="trocarIdioma('en')">
+        <span>{{ 'LANGUAGE-EN' | translate }}</span>
+    </button>
+</mat-menu>

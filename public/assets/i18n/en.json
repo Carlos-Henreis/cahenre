@@ -14,8 +14,11 @@
     "CLOUD-SOLUTIONS-ARCHITECT": "Cloud Solutions Architect",
     "BACKEND-DEV": "Backend Developer",
     "LANGUAGE-EN": "English",
-    "LANGUAGE-PT": "Português",
+    "LANGUAGE-PT": "Portuguese",
     "CHANGE-LANGUAGE": "Change Language",
+    "LANGUAGE-SELECT": "Select Language",
+    "CANCEL": "Cancel",
+    "LANGUAGE-REQUIRED": "Language required",
     "OPEN-MENU": "Open Menu",
     "CLOSE-MENU": "Close Menu",
     "GO-TO-TOP": "Go to top",
@@ -167,5 +170,7 @@
     "PROJECT-TITLE-11": "Scroll Back to Top Button with Vuetify",
     "PROJECT-DESCRIPTION-11": "Demonstrates how to create a 'scroll to top' button that appears when the user scrolls down the page.",
     "PROJECT-TITLE-12": "Minesweeper with Vue/Vuetify",
-    "PROJECT-DESCRIPTION-12": "Minesweeper game developed with VueJS and Vuetify."
+    "PROJECT-DESCRIPTION-12": "Minesweeper game developed with VueJS and Vuetify.",
+    "PROJECT-TITLE-13": "URL Shortener with QR Code and Statistics",
+    "PROJECT-DESCRIPTION-13": "URL shortener with QR code generation and access statistics, developed with Spring Boot, Angular, and MySQL."
 }

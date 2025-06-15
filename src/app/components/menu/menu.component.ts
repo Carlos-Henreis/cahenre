@@ -6,7 +6,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatMenuModule} from '@angular/material/menu';
 
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { ScreenService } from '../../services/screen.service';
 
 
@@ -33,11 +33,9 @@ export class MenuComponent {
   showButtonScrollTop = false;
   private scrollElement!: HTMLElement;
   private scrollListener: (() => void) | undefined;
-  dialOpen = false;
 
   constructor(
     private renderer: Renderer2,
-    private translate: TranslateService,
     public screen: ScreenService
   ) {}
 
@@ -53,35 +51,21 @@ export class MenuComponent {
     }
   }
 
-  trocarIdioma(language: string): void {
-    this.translate.use(language);
-  }
-
   scrollToTop(): void {
     this.scrollElement.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
-    this.dialOpen = !this.dialOpen;
   }
 
   ngOnDestroy(): void {
     if (this.scrollListener) this.scrollListener();
   }
 
-  toggleDial() {
-    this.dialOpen = !this.dialOpen;
-  }
+ 
   
   toggleMenu() {
     this.toggleSidenav.emit();
-    this.dialOpen = false;
-  }
-
-  get tooltipTextoMenu(): string {
-    return this.sidenavOpened
-      ? this.translate.instant('CLOSE-MENU')
-      : this.translate.instant('OPEN-MENU');
   }
 
 }

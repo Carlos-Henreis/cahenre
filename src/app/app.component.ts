@@ -42,7 +42,7 @@ export class AppComponent {
 
   @ViewChild('sidenav') sidenav!: MatSidenav
 
-  sidenavOpened = true;
+  sidenavOpened = false;
   title = 'cahenre-portifolio';
 
   constructor(
@@ -51,8 +51,8 @@ export class AppComponent {
     private titleService: Title, 
     private metaService: Meta
   ) {
-    this.translate.setDefaultLang('pt');
-    this.translate.use('pt');
+    this.translate.setDefaultLang('en');
+    this.translate.use('en');
   }
 
   ngOnInit(): void {

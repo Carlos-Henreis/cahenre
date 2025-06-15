@@ -1,0 +1,23 @@
+<h2 mat-dialog-title>{{ 'CHANGE-LANGUAGE' | translate }}</h2>
+
+<mat-dialog-content>
+  <mat-form-field appearance="fill" style="width: 100%;">
+    <mat-label>{{ 'LANGUAGE-SELECT' | translate }}</mat-label>
+    <mat-select [formControl]="languageControl">
+      <mat-option value="pt">{{ 'LANGUAGE-PT' | translate }}</mat-option>
+      <mat-option value="en">{{ 'LANGUAGE-EN' | translate }}</mat-option>
+    </mat-select>
+    <mat-error *ngIf="languageControl.invalid && languageControl.touched">
+        {{ 'LANGUAGE-REQUIRED' | translate }}
+    </mat-error>
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="onCancel()">
+    {{ 'CANCEL' | translate }}
+  </button>
+  <button mat-flat-button color="primary" (click)="onSubmit()" [disabled]="languageControl.invalid">
+    Ok
+  </button>
+</mat-dialog-actions>

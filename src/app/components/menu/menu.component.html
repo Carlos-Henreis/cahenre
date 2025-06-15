@@ -1,44 +1,14 @@
-<div class="speed-dial-container">
-    <!-- Botão principal -->
-    <button mat-fab color="primary" (click)="toggleDial()">
-      <mat-icon>{{ dialOpen ? 'close' : 'menu' }}</mat-icon>
-    </button>
-  
-    <!-- Ações -->
-    <div class="speed-dial-actions" *ngIf="dialOpen">
-        <button mat-mini-fab 
-            *ngIf="!screen.isDesktop()"
-            color="primary" 
-            (click)="toggleMenu()" 
-            [matTooltip]="tooltipTextoMenu"
-            matTooltipPosition= "left"
-        >
-            <mat-icon fontSet="material-symbols-outlined">{{ sidenavOpened ? 'arrow_menu_close' : 'arrow_menu_open' }}</mat-icon>
-        </button>
-        <button mat-mini-fab 
-            [matMenuTriggerFor]="menu"
-            [matTooltip]="'CHANGE-LANGUAGE' | translate"
-        >
-            <mat-icon>translate</mat-icon>
-        </button>
-        <button
-            mat-mini-fab 
-            color="primary"
-            class="scroll-to-top-button" 
-            (click)="scrollToTop()"
-            *ngIf="showButtonScrollTop"
-            [matTooltip]="'GO-TO-TOP' | translate"
-            matTooltipPosition="left"
-        >
-            <mat-icon>arrow_upward</mat-icon>
-        </button>
-    </div>
-    <mat-menu #menu="matMenu">
-        <button mat-menu-item (click)="trocarIdioma('pt')">
-          <span>{{ 'LANGUAGE-PT' | translate }}</span>
-        </button>
-        <button mat-menu-item (click)="trocarIdioma('en')">
-            <span>{{ 'LANGUAGE-EN' | translate }}</span>
-        </button>
-      </mat-menu>
-  </div>
+<button mat-fab class="open-header-btn" color="primary" (click)="toggleMenu()" *ngIf="!screen.isDesktop()">
+    <mat-icon>{{ sidenavOpened  ? 'close' : 'menu' }}</mat-icon>
+</button>
+
+<button
+    mat-fab
+    class="go-top-button"
+    color="primary"
+    (click)="scrollToTop()"
+    *ngIf="showButtonScrollTop"
+    [matTooltip]="'GO-TO-TOP' | translate"
+    matTooltipPosition="left">
+    <mat-icon>arrow_upward</mat-icon>
+</button>

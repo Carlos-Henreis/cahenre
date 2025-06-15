@@ -13,9 +13,12 @@
     "TECH-LEAD": "Líder Técnico",
     "CLOUD-SOLUTIONS-ARCHITECT": "Arquiteto de Soluções em Nuvem",
     "BACKEND-DEV": "Desenvolvedor Backend",
-    "LANGUAGE-EN": "English",
+    "LANGUAGE-EN": "Inglês",
     "LANGUAGE-PT": "Português",
     "CHANGE-LANGUAGE": "Mudar Idioma",
+    "LANGUAGE-SELECT": "Selecione o Idioma",
+    "CANCEL": "Cancelar",
+    "LANGUAGE-REQUIRED": "Idioma obrigatório",
     "OPEN-MENU": "Abrir Menu",
     "CLOSE-MENU": "Fechar Menu",
     "GO-TO-TOP": "Ir para o topo",
@@ -167,5 +170,7 @@
     "PROJECT-TITLE-11": "Botão Voltar ao Topo com Vuetify",
     "PROJECT-DESCRIPTION-11": "Demonstração de como criar um botão de \"scroll to top\" que aparece ao rolar a página.",
     "PROJECT-TITLE-12": "Campo Minado com Vue/Vuetify",
-    "PROJECT-DESCRIPTION-12": "Jogo de Campo Minado desenvolvido com VueJS e Vuetify."
+    "PROJECT-DESCRIPTION-12": "Jogo de Campo Minado desenvolvido com VueJS e Vuetify.",
+    "PROJECT-TITLE-13": "Encurtador de URLs com QR Code e Estatísticas | chr.app.br",
+    "PROJECT-DESCRIPTION-13": "Encurtador de URLs com geração de QR Code e estatísticas de acesso, desenvolvido com Spring Boot, Angular e MySQL."
 }

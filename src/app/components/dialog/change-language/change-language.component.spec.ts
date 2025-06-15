@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScrollTopFabComponent } from './scroll-top-fab.component';
+import { ChangeLanguageComponent } from './change-language.component';
 
-describe('ScrollTopFabComponent', () => {
-  let component: ScrollTopFabComponent;
-  let fixture: ComponentFixture<ScrollTopFabComponent>;
+describe('ChangeLanguageComponent', () => {
+  let component: ChangeLanguageComponent;
+  let fixture: ComponentFixture<ChangeLanguageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ScrollTopFabComponent]
+      imports: [ChangeLanguageComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ScrollTopFabComponent);
+    fixture = TestBed.createComponent(ChangeLanguageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

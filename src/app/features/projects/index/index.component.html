@@ -13,7 +13,7 @@
         <mat-card-header>
             <mat-card-title>{{ project.title | translate }}</mat-card-title>
         </mat-card-header>
-        <img mat-card-image [src]="project.image" />
+        <img mat-card-image [src]="project.image" [alt]="project.alt" />
         <mat-card-content>
             <mat-chip-set>
                 <mat-chip *ngFor="let tech of project.tags">

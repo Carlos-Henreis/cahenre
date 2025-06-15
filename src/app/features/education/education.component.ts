@@ -32,12 +32,8 @@ export class EducationComponent {
     private badgeService: BadgeService
   ) {}
 
-  ngOnInit(): void {
-    this.loadBadges();
-    // adicionar campo url para cada badge
-    this.badges.forEach((badge: any) => {
-      badge.url = this.generateBadgeUrl(badge);
-    });
+  async ngOnInit() {
+    await this.loadBadges();
     this.badges.splice( 2, 0,{
       id: 'd6f4e00c-57a8-4d3e-aceb-1cb908007524',
       image_url: '/icons/badge_apollo.svg',
@@ -56,10 +52,14 @@ export class EducationComponent {
 
   async loadBadges() {
     this.loading = true;
-    console.log(await this.badgeService.getBadges());
 
     await this.badgeService.getBadges().then((badges: any) => {
       this.badges = badges.data;
+
+      this.badges.forEach((badge: any) => {
+        badge.url = this.generateBadgeUrl(badge);
+      });
+
       this.loading = false;
       this.badgesContent = true;
     });
